@@ -19,6 +19,6 @@ openApiGenerate {
   outputDir.set(layout.buildDirectory.dir("generated/openapi").map { it.toString() })
 }
 
-tasks.named("openApiGenerate") {
+tasks.named("openApiGenerate").configure {
   dependsOn(openApiDownload)
 }
