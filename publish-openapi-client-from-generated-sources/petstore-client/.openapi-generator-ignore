@@ -1,0 +1,7 @@
+build/generated/openapi/*
+build/generated/openapi/.github/**/*
+build/generated/openapi/api/*
+build/generated/openapi/docs/*
+build/generated/openapi/gradle/**/*
+build/generated/openapi/src/main/AndroidManifest.xml
+build/generated/openapi/src/test/**/*
